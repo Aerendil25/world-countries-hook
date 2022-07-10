@@ -1,0 +1,84 @@
+body {
+  color: rgb(15, 15, 102);
+  background-color: rgb(170, 222, 231);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.header {
+  margin: 10px 0;
+  font-family: "Cinzel", serif;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 5%;
+}
+
+img {
+  height: 100px;
+  width: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card {
+  height: 280px;
+  max-width: 210px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: -1px 7px 10px 3px rgba(115, 115, 115, 0.83);
+  border: 2px solid rgb(202, 202, 202);
+  background-color: rgb(255, 239, 218);
+}
+
+.card:hover {
+  background-color: rgb(250, 250, 234);
+  box-shadow: -1px 7px 10px 3px rgba(233, 233, 233, 0.83);
+}
+
+.card h5 {
+  margin: 15px 0;
+  color: rgb(100, 86, 77);
+}
+
+.page-link {
+  color: rgb(10, 83, 133);
+  background-color: rgb(202, 202, 202);
+}
+
+.page-item {
+  border-color: rgb(170, 222, 231);
+}
+
+.pagination {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+}
+
+.row {
+  position: absolute;
+  top: 40%;
+}
+
+button,
+.total {
+  position: absolute;
+  top: 20%;
+  left: 85%;
+}
+
+.total {
+  left: 15%;
+  color: rgb(100, 86, 77);
+}
+
+main {
+  padding: 20px;
+}
